@@ -16,6 +16,7 @@ N_ITENS = len(itens)
 
 import random
 
+
 # função para criar mochila aleatória
 def cria_mochila(n_itens):
     mochila = []
@@ -36,7 +37,7 @@ def cria_populacao(tamanho_populacao):
         
     return populacao
 
-def beneficio_peso(populacao, itens):
+def beneficio_peso(populacao):
     beneficios = []
     pesos = []
     
@@ -53,3 +54,33 @@ def beneficio_peso(populacao, itens):
     mochilas_calculadas = list(zip(beneficios, pesos))
     
     return mochilas_calculadas
+
+def fitness(beneficio, peso):
+    if peso <= CAPACIDADE:
+        return beneficio
+    
+    # aplicando penalização para mochilas excedentes saírem logo da geração
+    excedente = peso - CAPACIDADE
+    penalizacao = excedente * 10
+    return beneficio - penalizacao
+
+
+# cruzamento de um ponto (meio)
+def cruzamento(mochila1, mochila2):
+    chance = random.random()
+
+    if(chance <= TAXA_CRUZAMENTO):
+        corte = N_ITENS // 2
+        filho1 = mochila1[:corte] + mochila2[corte:]
+        filho2 = mochila2[:corte] + mochila1[corte:]
+        return filho1, filho2
+    
+    return mochila1, mochila2
+
+
+def mutacao(mochila):
+    for i in range(len(mochila)):
+        chance = random.random()
+        if(chance <= TAXA_MUTACAO):
+            mochila[i] = 1 - mochila[i]
+    return mochila
