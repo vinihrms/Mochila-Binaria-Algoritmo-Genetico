@@ -18,7 +18,6 @@ N_ITENS = len(itens)
 import random
 import math
 
-
 # função para criar mochila aleatória
 def cria_mochila(n_itens):
     mochila = []
@@ -85,7 +84,6 @@ def mutacao(mochila):
             mochila[i] = 1 - mochila[i]
     return mochila
 
-
 # aqui tem que zipar acho a populacao com o um array armazenando todos os valores fitness
 # deve receber pares de populacao e seu fitness
 def elitismo(populacao_com_fitness, taxa=TAXA_ELITISMO):
@@ -97,3 +95,28 @@ def elitismo(populacao_com_fitness, taxa=TAXA_ELITISMO):
     elite = populacao_ordenada[:tamanho_elite]
     populacao_sem_elite = populacao_ordenada[tamanho_elite:]
     return populacao_sem_elite, elite
+
+
+# tem que vir o par (mochila, fitness)
+def selecao_ranking(populacao):
+    n = len(populacao)
+    probabilidades = []
+    for it in range(n):
+        i = it + 1
+        # P(i) = (2 * i) / (n * (n + 1))
+        p_i = (2 * i) / (n * (n + 1))
+        probabilidades.append(p_i)
+        
+    intervalo_chances = []
+    acumulado = 0.0
+    for probabilidade in probabilidades:
+        acumulado += probabilidade
+        intervalo_chances.append(acumulado)
+    
+    intervalo_chances[-1] = 1.0
+    
+    roleta = random.random()
+    for i, chance in enumerate(intervalo_chances):
+        if roleta <= chance:
+            return populacao[i][0]
+        
