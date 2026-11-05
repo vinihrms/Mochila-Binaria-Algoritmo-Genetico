@@ -3,6 +3,7 @@ POPULACAO_TAMANHO = 100
 GERACOES = 70
 TAXA_MUTACAO = 0.03
 TAXA_CRUZAMENTO = 0.6
+TAXA_ELITISMO = 0.01
 
 # definição do que se trata da mochila
 CAPACIDADE = 105
@@ -15,6 +16,7 @@ itens = list(zip(beneficio_itens, peso_itens))
 N_ITENS = len(itens)
 
 import random
+import math
 
 
 # função para criar mochila aleatória
@@ -64,7 +66,6 @@ def fitness(beneficio, peso):
     penalizacao = excedente * 10
     return beneficio - penalizacao
 
-
 # cruzamento de um ponto (meio)
 def cruzamento(mochila1, mochila2):
     chance = random.random()
@@ -77,10 +78,22 @@ def cruzamento(mochila1, mochila2):
     
     return mochila1, mochila2
 
-
 def mutacao(mochila):
     for i in range(len(mochila)):
         chance = random.random()
         if(chance <= TAXA_MUTACAO):
             mochila[i] = 1 - mochila[i]
     return mochila
+
+
+# aqui tem que zipar acho a populacao com o um array armazenando todos os valores fitness
+# deve receber pares de populacao e seu fitness
+def elitismo(populacao_com_fitness, taxa=TAXA_ELITISMO):
+    populacao_ordenada = sorted(populacao_com_fitness, key=lambda x: x[1], reverse=True)
+    
+    # usa o minímo para não permitir elite maior que a população
+    tamanho_elite = min(math.ceil(len(populacao_ordenada) * taxa), len(populacao_ordenada))
+    
+    elite = populacao_ordenada[:tamanho_elite]
+    populacao_sem_elite = populacao_ordenada[tamanho_elite:]
+    return populacao_sem_elite, elite
