@@ -1,6 +1,6 @@
 # definição de constantes
-POPULACAO_TAMANHO = 100
-GERACOES = 70
+POPULACAO_TAMANHO = 30
+GERACOES = 50
 TAXA_MUTACAO = 0.03
 TAXA_CRUZAMENTO = 0.6
 TAXA_ELITISMO = 0.01
@@ -96,15 +96,13 @@ def elitismo(populacao_com_fitness, taxa=TAXA_ELITISMO):
     populacao_sem_elite = populacao_ordenada[tamanho_elite:]
     return populacao_sem_elite, elite
 
-
 # tem que vir o par (mochila, fitness)
 def selecao_ranking(populacao):
     n = len(populacao)
     probabilidades = []
     for it in range(n):
-        i = it + 1
-        # P(i) = (2 * i) / (n * (n + 1))
-        p_i = (2 * i) / (n * (n + 1))
+        # P(i) = (2 * (n - i)) / (n * (n + 1))
+        p_i = (2 * (n - it)) / (n * (n + 1))
         probabilidades.append(p_i)
         
     intervalo_chances = []
@@ -119,4 +117,48 @@ def selecao_ranking(populacao):
     for i, chance in enumerate(intervalo_chances):
         if roleta <= chance:
             return populacao[i][0]
+
+def ag():
+    populacao = cria_populacao(POPULACAO_TAMANHO)
+    
+    for geracao in range(GERACOES):
         
+        mochilas_calculadas = beneficio_peso(populacao)
+        
+        valores_fitness = []
+        
+        for beneficio, peso in mochilas_calculadas:
+            valores_fitness.append(fitness(beneficio, peso))
+        
+        geracao_atual = list(zip(populacao, valores_fitness))
+        
+        populacao_sem_elite, elite = elitismo(geracao_atual)
+        
+        # passa elite para frente já
+        nova_pop = []
+        nova_pop.extend([mochila for mochila, fitness in elite])
+        
+        # cruzamento
+        while len(nova_pop) < POPULACAO_TAMANHO:
+            pai1 = selecao_ranking(populacao_sem_elite)
+            pai2 = selecao_ranking(populacao_sem_elite)
+            filho1, filho2 = cruzamento(pai1, pai2)
+            nova_pop.extend([mutacao(filho1), mutacao(filho2)])
+            nova_pop = nova_pop[:POPULACAO_TAMANHO] # isso é para não aumentar cada população
+
+        populacao = nova_pop
+        
+        melhor_mochila, _ = max(
+            zip(populacao, [fitness(*atributos) for atributos in beneficio_peso(populacao)]),
+            key=lambda par: par[1]
+        )
+        atributos_melhor_mochila = beneficio_peso([melhor_mochila])[0]
+        
+        print(f"Geração: {geracao + 1}")
+        print(f"Melhor mochila: {melhor_mochila}")
+        print(f"Benefício: {atributos_melhor_mochila[0]}. Peso: {atributos_melhor_mochila[1]}")
+        
+        if(geracao + 1 < GERACOES):
+            print("\n")
+
+ag()
