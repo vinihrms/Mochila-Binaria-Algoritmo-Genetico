@@ -1,22 +1,26 @@
 # definição de constantes
-POPULACAO_TAMANHO = 30
-GERACOES = 50
-TAXA_MUTACAO = 0.03
-TAXA_CRUZAMENTO = 0.6
-TAXA_ELITISMO = 0.01
+POPULACAO_TAMANHO = 300
+GERACOES = 300
+TAXA_MUTACAO = 0.01
+TAXA_CRUZAMENTO = 0.8
+TAXA_ELITISMO = 0.1
 
 # definição do que se trata da mochila
-CAPACIDADE = 105
-beneficio_itens = [3, 42, 5, 48, 42, 13, 3, 20, 12, 37]
-peso_itens = [2, 35, 13, 29, 9, 25, 2, 14, 4, 17]
+
+with open('./entradas/Mochila2000.txt', 'r') as entrada:
+    linhas = entrada.readlines()
+
+CAPACIDADE = int(linhas[0].strip())
+beneficio_itens = list(map(int, linhas[1].split()))
+peso_itens = list(map(int, linhas[2].split()))
 
 itens = list(zip(beneficio_itens, peso_itens))
 
 # será o teste inicial com o primeiro arquivo -> isso vai ficar dinamico depois
 N_ITENS = len(itens)
 
-import random
 import math
+import random
 
 # função para criar mochila aleatória
 def cria_mochila(n_itens):
@@ -31,10 +35,33 @@ def cria_mochila(n_itens):
     
     return mochila  
 
+# remove itens que fazem com que a mochila exceda a capaciadade
+# remove os de menores benefícios 
+def repara_mochila(mochila):
+    peso_atual = sum(
+        peso_itens[i] for i, selecionado in enumerate(mochila)
+        if selecionado == 1
+    )
+
+    while peso_atual > CAPACIDADE:
+        selecionados = [
+            i for i, selecionado in enumerate(mochila)
+            if selecionado == 1
+        ]
+
+        item_removido = min(
+            selecionados,
+            key=lambda i: beneficio_itens[i] / peso_itens[i]
+        )
+        mochila[item_removido] = 0
+        peso_atual -= peso_itens[item_removido]
+
+    return mochila
+
 def cria_populacao(tamanho_populacao):
     populacao = []
     for _ in range(tamanho_populacao):
-        populacao.append(cria_mochila(N_ITENS))
+        populacao.append(repara_mochila(cria_mochila(N_ITENS)))
         
     return populacao
 
@@ -143,7 +170,10 @@ def ag():
             pai1 = selecao_ranking(populacao_sem_elite)
             pai2 = selecao_ranking(populacao_sem_elite)
             filho1, filho2 = cruzamento(pai1, pai2)
-            nova_pop.extend([mutacao(filho1), mutacao(filho2)])
+            nova_pop.extend([
+                repara_mochila(mutacao(filho1)),
+                repara_mochila(mutacao(filho2))
+            ])
             nova_pop = nova_pop[:POPULACAO_TAMANHO] # isso é para não aumentar cada população
 
         populacao = nova_pop
@@ -155,8 +185,8 @@ def ag():
         atributos_melhor_mochila = beneficio_peso([melhor_mochila])[0]
         
         print(f"Geração: {geracao + 1}")
-        print(f"Melhor mochila: {melhor_mochila}")
-        print(f"Benefício: {atributos_melhor_mochila[0]}. Peso: {atributos_melhor_mochila[1]}")
+        # print(f"Melhor mochila: {melhor_mochila}")
+        print(f"Benefício: {atributos_melhor_mochila[0]}. Peso: {atributos_melhor_mochila[1]}/{CAPACIDADE}")
         
         if(geracao + 1 < GERACOES):
             print("\n")
