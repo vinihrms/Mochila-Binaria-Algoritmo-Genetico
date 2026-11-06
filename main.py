@@ -1,13 +1,13 @@
 # definição de constantes
-POPULACAO_TAMANHO = 300
-GERACOES = 300
+POPULACAO_TAMANHO = 10
+GERACOES = 10
 TAXA_MUTACAO = 0.01
 TAXA_CRUZAMENTO = 0.8
 TAXA_ELITISMO = 0.1
 
 # definição do que se trata da mochila
 
-with open('./entradas/Mochila2000.txt', 'r') as entrada:
+with open('./entradas/Mochila50.txt', 'r') as entrada:
     linhas = entrada.readlines()
 
 CAPACIDADE = int(linhas[0].strip())
@@ -37,30 +37,36 @@ def cria_mochila(n_itens):
 
 # remove itens que fazem com que a mochila exceda a capaciadade
 # remove os de menores benefícios 
+# isso otimizou MUITO para as mochilas maiores
 def repara_mochila(mochila):
     peso_atual = sum(
         peso_itens[i] for i, selecionado in enumerate(mochila)
         if selecionado == 1
     )
 
-    while peso_atual > CAPACIDADE:
-        selecionados = [
-            i for i, selecionado in enumerate(mochila)
-            if selecionado == 1
-        ]
+    if peso_atual <= CAPACIDADE:
+        return mochila
 
-        item_removido = min(
-            selecionados,
-            key=lambda i: beneficio_itens[i] / peso_itens[i]
-        )
+    selecionados = sorted(
+        (i for i, selecionado in enumerate(mochila) if selecionado == 1),
+        key=lambda i: beneficio_itens[i] / peso_itens[i]
+    )
+
+    for item_removido in selecionados:
         mochila[item_removido] = 0
         peso_atual -= peso_itens[item_removido]
+        if peso_atual <= CAPACIDADE:
+            break
 
     return mochila
 
 def cria_populacao(tamanho_populacao):
     populacao = []
     for _ in range(tamanho_populacao):
+        
+        #populacao.append(cria_mochila(N_ITENS))
+
+        # reparar mochila na criação
         populacao.append(repara_mochila(cria_mochila(N_ITENS)))
         
     return populacao
@@ -170,10 +176,12 @@ def ag():
             pai1 = selecao_ranking(populacao_sem_elite)
             pai2 = selecao_ranking(populacao_sem_elite)
             filho1, filho2 = cruzamento(pai1, pai2)
-            nova_pop.extend([
-                repara_mochila(mutacao(filho1)),
-                repara_mochila(mutacao(filho2))
-            ])
+            
+            # testes com e sem reparar a mochila de mutacao
+            nova_pop.extend([mutacao(filho1),(filho2)])
+            #nova_pop.extend([repara_mochila(mutacao(filho1)),repara_mochila(mutacao(filho2))])
+            
+            
             nova_pop = nova_pop[:POPULACAO_TAMANHO] # isso é para não aumentar cada população
 
         populacao = nova_pop
