@@ -108,7 +108,7 @@ def cruzamento(mochila1, mochila2):
         filho2 = mochila2[:corte] + mochila1[corte:]
         return filho1, filho2
     
-    return mochila1, mochila2
+    return mochila1[:], mochila2[:]
 
 def mutacao(mochila):
     for i in range(len(mochila)):
