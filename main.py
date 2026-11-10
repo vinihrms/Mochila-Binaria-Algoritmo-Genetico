@@ -1,6 +1,6 @@
 # definição de constantes
-POPULACAO_TAMANHO = 10
-GERACOES = 10
+POPULACAO_TAMANHO = 1000
+GERACOES = 30
 TAXA_MUTACAO = 0.01
 TAXA_CRUZAMENTO = 0.8
 TAXA_ELITISMO = 0.1
@@ -178,7 +178,7 @@ def ag():
             filho1, filho2 = cruzamento(pai1, pai2)
             
             # testes com e sem reparar a mochila de mutacao
-            nova_pop.extend([mutacao(filho1),(filho2)])
+            nova_pop.extend([mutacao(filho1),mutacao(filho2)])
             #nova_pop.extend([repara_mochila(mutacao(filho1)),repara_mochila(mutacao(filho2))])
             
             
