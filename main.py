@@ -7,7 +7,10 @@ TAXA_ELITISMO = 0.1
 
 # definição do que se trata da mochila
 
-with open('./entradas/Mochila50.txt', 'r') as entrada:
+
+nome_arquivo = 'Mochila1000'
+
+with open(f'./entradas/{nome_arquivo}.txt', 'r') as entrada:
     linhas = entrada.readlines()
 
 CAPACIDADE = int(linhas[0].strip())
@@ -20,7 +23,10 @@ itens = list(zip(beneficio_itens, peso_itens))
 N_ITENS = len(itens)
 
 import math
+import os
 import random
+import sys
+
 
 # função para criar mochila aleatória
 def cria_mochila(n_itens):
@@ -47,10 +53,15 @@ def repara_mochila(mochila):
     if peso_atual <= CAPACIDADE:
         return mochila
 
+    # tem item com peso = 0 na mochila 1000 :/
     selecionados = sorted(
-        (i for i, selecionado in enumerate(mochila) if selecionado == 1),
-        key=lambda i: beneficio_itens[i] / peso_itens[i]
+    (i for i, selecionado in enumerate(mochila) if selecionado == 1),
+    key=lambda i: (
+        float("inf")
+        if peso_itens[i] == 0
+        else beneficio_itens[i] / peso_itens[i]
     )
+)
 
     for item_removido in selecionados:
         mochila[item_removido] = 0
@@ -196,7 +207,18 @@ def ag():
         # print(f"Melhor mochila: {melhor_mochila}")
         print(f"Benefício: {atributos_melhor_mochila[0]}. Peso: {atributos_melhor_mochila[1]}/{CAPACIDADE}")
         
-        if(geracao + 1 < GERACOES):
-            print("\n")
+        
+        os.makedirs('./saidas', exist_ok=True)
+        modo = "w" if geracao == 0 else "a"
+        with open(f'./saidas/{nome_arquivo}.txt', modo, encoding="utf-8") as arquivo:
+            arquivo.write(f"Geração: {geracao + 1}\n")
+            # print(f"Melhor mochila: {melhor_mochila}")
+            arquivo.write(
+                f"Benefício: {atributos_melhor_mochila[0]}. "
+                f"Peso: {atributos_melhor_mochila[1]}/{CAPACIDADE}\n"
+            )
+        
+            if(geracao + 1 < GERACOES):
+                arquivo.write("\n")
 
 ag()

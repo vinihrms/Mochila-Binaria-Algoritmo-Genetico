@@ -1,0 +1,89 @@
+Geração: 1
+Benefício: 972. Peso: 906/943
+
+Geração: 2
+Benefício: 998. Peso: 800/943
+
+Geração: 3
+Benefício: 998. Peso: 800/943
+
+Geração: 4
+Benefício: 1075. Peso: 943/943
+
+Geração: 5
+Benefício: 1075. Peso: 943/943
+
+Geração: 6
+Benefício: 1075. Peso: 943/943
+
+Geração: 7
+Benefício: 1075. Peso: 943/943
+
+Geração: 8
+Benefício: 1075. Peso: 943/943
+
+Geração: 9
+Benefício: 1075. Peso: 943/943
+
+Geração: 10
+Benefício: 1075. Peso: 943/943
+
+Geração: 11
+Benefício: 1075. Peso: 943/943
+
+Geração: 12
+Benefício: 1075. Peso: 943/943
+
+Geração: 13
+Benefício: 1075. Peso: 943/943
+
+Geração: 14
+Benefício: 1075. Peso: 943/943
+
+Geração: 15
+Benefício: 1077. Peso: 882/943
+
+Geração: 16
+Benefício: 1085. Peso: 929/943
+
+Geração: 17
+Benefício: 1091. Peso: 937/943
+
+Geração: 18
+Benefício: 1091. Peso: 937/943
+
+Geração: 19
+Benefício: 1099. Peso: 937/943
+
+Geração: 20
+Benefício: 1119. Peso: 943/943
+
+Geração: 21
+Benefício: 1119. Peso: 943/943
+
+Geração: 22
+Benefício: 1119. Peso: 943/943
+
+Geração: 23
+Benefício: 1119. Peso: 943/943
+
+Geração: 24
+Benefício: 1119. Peso: 943/943
+
+Geração: 25
+Benefício: 1121. Peso: 920/943
+
+Geração: 26
+Benefício: 1129. Peso: 892/943
+
+Geração: 27
+Benefício: 1134. Peso: 910/943
+
+Geração: 28
+Benefício: 1134. Peso: 910/943
+
+Geração: 29
+Benefício: 1136. Peso: 935/943
+
+Geração: 30
+Benefício: 1138. Peso: 910/943
