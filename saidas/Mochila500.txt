@@ -1,89 +1,89 @@
 Geração: 1
-Benefício: 7209. Peso: 6320/8240
+Benefício: 7235. Peso: 6248/8240
 
 Geração: 2
-Benefício: 7223. Peso: 6393/8240
+Benefício: 7235. Peso: 6248/8240
 
 Geração: 3
-Benefício: 7232. Peso: 6074/8240
+Benefício: 7235. Peso: 6248/8240
 
 Geração: 4
-Benefício: 7255. Peso: 6033/8240
+Benefício: 7379. Peso: 6471/8240
 
 Geração: 5
-Benefício: 7442. Peso: 6279/8240
+Benefício: 7379. Peso: 6471/8240
 
 Geração: 6
-Benefício: 7442. Peso: 6279/8240
+Benefício: 7400. Peso: 6248/8240
 
 Geração: 7
-Benefício: 7442. Peso: 6279/8240
+Benefício: 7400. Peso: 6248/8240
 
 Geração: 8
-Benefício: 7671. Peso: 6593/8240
+Benefício: 7481. Peso: 6305/8240
 
 Geração: 9
-Benefício: 7671. Peso: 6593/8240
+Benefício: 7481. Peso: 6305/8240
 
 Geração: 10
-Benefício: 7671. Peso: 6593/8240
+Benefício: 7554. Peso: 6796/8240
 
 Geração: 11
-Benefício: 7671. Peso: 6593/8240
+Benefício: 7554. Peso: 6796/8240
 
 Geração: 12
-Benefício: 7671. Peso: 6593/8240
+Benefício: 7693. Peso: 6359/8240
 
 Geração: 13
-Benefício: 7671. Peso: 6593/8240
+Benefício: 7693. Peso: 6359/8240
 
 Geração: 14
-Benefício: 7777. Peso: 6525/8240
+Benefício: 7693. Peso: 6359/8240
 
 Geração: 15
-Benefício: 7777. Peso: 6525/8240
+Benefício: 7693. Peso: 6359/8240
 
 Geração: 16
-Benefício: 7777. Peso: 6525/8240
+Benefício: 7703. Peso: 6740/8240
 
 Geração: 17
-Benefício: 7777. Peso: 6525/8240
+Benefício: 7813. Peso: 6568/8240
 
 Geração: 18
-Benefício: 7777. Peso: 6525/8240
+Benefício: 7813. Peso: 6568/8240
 
 Geração: 19
-Benefício: 7831. Peso: 7013/8240
+Benefício: 7841. Peso: 6897/8240
 
 Geração: 20
-Benefício: 7847. Peso: 6905/8240
+Benefício: 7841. Peso: 6897/8240
 
 Geração: 21
-Benefício: 7847. Peso: 6905/8240
+Benefício: 7911. Peso: 6604/8240
 
 Geração: 22
-Benefício: 7977. Peso: 6723/8240
+Benefício: 7917. Peso: 6395/8240
 
 Geração: 23
-Benefício: 7977. Peso: 6723/8240
+Benefício: 7961. Peso: 6536/8240
 
 Geração: 24
-Benefício: 8056. Peso: 6913/8240
+Benefício: 8021. Peso: 6751/8240
 
 Geração: 25
-Benefício: 8056. Peso: 6913/8240
+Benefício: 8021. Peso: 6751/8240
 
 Geração: 26
-Benefício: 8056. Peso: 6913/8240
+Benefício: 8041. Peso: 6852/8240
 
 Geração: 27
-Benefício: 8056. Peso: 6913/8240
+Benefício: 8050. Peso: 6709/8240
 
 Geração: 28
-Benefício: 8092. Peso: 6715/8240
+Benefício: 8066. Peso: 7016/8240
 
 Geração: 29
-Benefício: 8121. Peso: 6686/8240
+Benefício: 8118. Peso: 6808/8240
 
 Geração: 30
-Benefício: 8156. Peso: 6661/8240
+Benefício: 8132. Peso: 6864/8240

@@ -1,89 +1,89 @@
 Geração: 1
-Benefício: 972. Peso: 906/943
+Benefício: 938. Peso: 804/943
 
 Geração: 2
-Benefício: 998. Peso: 800/943
+Benefício: 972. Peso: 788/943
 
 Geração: 3
-Benefício: 998. Peso: 800/943
+Benefício: 972. Peso: 788/943
 
 Geração: 4
-Benefício: 1075. Peso: 943/943
+Benefício: 972. Peso: 788/943
 
 Geração: 5
-Benefício: 1075. Peso: 943/943
+Benefício: 984. Peso: 840/943
 
 Geração: 6
-Benefício: 1075. Peso: 943/943
+Benefício: 1007. Peso: 890/943
 
 Geração: 7
-Benefício: 1075. Peso: 943/943
+Benefício: 1007. Peso: 890/943
 
 Geração: 8
-Benefício: 1075. Peso: 943/943
+Benefício: 1023. Peso: 831/943
 
 Geração: 9
-Benefício: 1075. Peso: 943/943
+Benefício: 1053. Peso: 893/943
 
 Geração: 10
-Benefício: 1075. Peso: 943/943
+Benefício: 1053. Peso: 893/943
 
 Geração: 11
-Benefício: 1075. Peso: 943/943
+Benefício: 1064. Peso: 914/943
 
 Geração: 12
-Benefício: 1075. Peso: 943/943
+Benefício: 1064. Peso: 914/943
 
 Geração: 13
-Benefício: 1075. Peso: 943/943
+Benefício: 1073. Peso: 934/943
 
 Geração: 14
-Benefício: 1075. Peso: 943/943
+Benefício: 1101. Peso: 846/943
 
 Geração: 15
-Benefício: 1077. Peso: 882/943
+Benefício: 1101. Peso: 846/943
 
 Geração: 16
-Benefício: 1085. Peso: 929/943
+Benefício: 1101. Peso: 846/943
 
 Geração: 17
-Benefício: 1091. Peso: 937/943
+Benefício: 1106. Peso: 915/943
 
 Geração: 18
-Benefício: 1091. Peso: 937/943
+Benefício: 1106. Peso: 915/943
 
 Geração: 19
-Benefício: 1099. Peso: 937/943
+Benefício: 1106. Peso: 915/943
 
 Geração: 20
-Benefício: 1119. Peso: 943/943
+Benefício: 1107. Peso: 897/943
 
 Geração: 21
-Benefício: 1119. Peso: 943/943
+Benefício: 1125. Peso: 925/943
 
 Geração: 22
-Benefício: 1119. Peso: 943/943
+Benefício: 1125. Peso: 925/943
 
 Geração: 23
-Benefício: 1119. Peso: 943/943
+Benefício: 1127. Peso: 934/943
 
 Geração: 24
-Benefício: 1119. Peso: 943/943
+Benefício: 1128. Peso: 940/943
 
 Geração: 25
-Benefício: 1121. Peso: 920/943
+Benefício: 1136. Peso: 922/943
 
 Geração: 26
-Benefício: 1129. Peso: 892/943
+Benefício: 1136. Peso: 922/943
 
 Geração: 27
-Benefício: 1134. Peso: 910/943
+Benefício: 1141. Peso: 909/943
 
 Geração: 28
-Benefício: 1134. Peso: 910/943
+Benefício: 1149. Peso: 926/943
 
 Geração: 29
-Benefício: 1136. Peso: 935/943
+Benefício: 1149. Peso: 926/943
 
 Geração: 30
-Benefício: 1138. Peso: 910/943
+Benefício: 1149. Peso: 926/943

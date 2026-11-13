@@ -1,89 +1,89 @@
 Geração: 1
-Benefício: 10350. Peso: 8904/16235
+Benefício: 10182. Peso: 9194/16235
 
 Geração: 2
-Benefício: 10350. Peso: 8904/16235
+Benefício: 10233. Peso: 9222/16235
 
 Geração: 3
-Benefício: 10456. Peso: 9519/16235
+Benefício: 10405. Peso: 9563/16235
 
 Geração: 4
-Benefício: 10456. Peso: 9519/16235
+Benefício: 10405. Peso: 9563/16235
 
 Geração: 5
-Benefício: 10456. Peso: 9519/16235
+Benefício: 10405. Peso: 9563/16235
 
 Geração: 6
-Benefício: 10456. Peso: 9519/16235
+Benefício: 10405. Peso: 9563/16235
 
 Geração: 7
-Benefício: 10456. Peso: 9519/16235
+Benefício: 10560. Peso: 9613/16235
 
 Geração: 8
-Benefício: 10639. Peso: 9318/16235
+Benefício: 10560. Peso: 9613/16235
 
 Geração: 9
-Benefício: 10639. Peso: 9318/16235
+Benefício: 10560. Peso: 9613/16235
 
 Geração: 10
-Benefício: 10639. Peso: 9318/16235
+Benefício: 10560. Peso: 9613/16235
 
 Geração: 11
-Benefício: 10658. Peso: 9405/16235
+Benefício: 10614. Peso: 9778/16235
 
 Geração: 12
-Benefício: 10658. Peso: 9405/16235
+Benefício: 10651. Peso: 9578/16235
 
 Geração: 13
-Benefício: 10768. Peso: 9693/16235
+Benefício: 10684. Peso: 9603/16235
 
 Geração: 14
-Benefício: 10768. Peso: 9693/16235
+Benefício: 10684. Peso: 9603/16235
 
 Geração: 15
-Benefício: 10789. Peso: 9641/16235
+Benefício: 10713. Peso: 10173/16235
 
 Geração: 16
-Benefício: 10864. Peso: 9482/16235
+Benefício: 10750. Peso: 9331/16235
 
 Geração: 17
-Benefício: 10864. Peso: 9482/16235
+Benefício: 10848. Peso: 9500/16235
 
 Geração: 18
-Benefício: 10864. Peso: 9482/16235
+Benefício: 10890. Peso: 9561/16235
 
 Geração: 19
-Benefício: 10878. Peso: 9526/16235
+Benefício: 11037. Peso: 9920/16235
 
 Geração: 20
-Benefício: 11082. Peso: 9901/16235
+Benefício: 11037. Peso: 9920/16235
 
 Geração: 21
-Benefício: 11082. Peso: 9901/16235
+Benefício: 11037. Peso: 9920/16235
 
 Geração: 22
-Benefício: 11082. Peso: 9901/16235
+Benefício: 11095. Peso: 9750/16235
 
 Geração: 23
-Benefício: 11082. Peso: 9901/16235
+Benefício: 11095. Peso: 9750/16235
 
 Geração: 24
-Benefício: 11236. Peso: 9776/16235
+Benefício: 11166. Peso: 10189/16235
 
 Geração: 25
-Benefício: 11236. Peso: 9776/16235
+Benefício: 11166. Peso: 10189/16235
 
 Geração: 26
-Benefício: 11236. Peso: 9776/16235
+Benefício: 11166. Peso: 10189/16235
 
 Geração: 27
-Benefício: 11236. Peso: 9776/16235
+Benefício: 11166. Peso: 10189/16235
 
 Geração: 28
-Benefício: 11238. Peso: 10319/16235
+Benefício: 11170. Peso: 9745/16235
 
 Geração: 29
-Benefício: 11238. Peso: 10319/16235
+Benefício: 11255. Peso: 10266/16235
 
 Geração: 30
-Benefício: 11339. Peso: 9751/16235
+Benefício: 11255. Peso: 10266/16235

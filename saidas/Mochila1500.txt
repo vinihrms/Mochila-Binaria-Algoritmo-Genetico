@@ -1,0 +1,89 @@
+Geração: 1
+Benefício: 19365. Peso: 17144/23631
+
+Geração: 2
+Benefício: 19365. Peso: 17144/23631
+
+Geração: 3
+Benefício: 19365. Peso: 17144/23631
+
+Geração: 4
+Benefício: 19365. Peso: 17144/23631
+
+Geração: 5
+Benefício: 19365. Peso: 17144/23631
+
+Geração: 6
+Benefício: 19420. Peso: 17738/23631
+
+Geração: 7
+Benefício: 19583. Peso: 17548/23631
+
+Geração: 8
+Benefício: 19728. Peso: 18160/23631
+
+Geração: 9
+Benefício: 19728. Peso: 18160/23631
+
+Geração: 10
+Benefício: 19865. Peso: 17700/23631
+
+Geração: 11
+Benefício: 19880. Peso: 17553/23631
+
+Geração: 12
+Benefício: 19880. Peso: 17553/23631
+
+Geração: 13
+Benefício: 20092. Peso: 18155/23631
+
+Geração: 14
+Benefício: 20092. Peso: 18155/23631
+
+Geração: 15
+Benefício: 20111. Peso: 17912/23631
+
+Geração: 16
+Benefício: 20153. Peso: 18281/23631
+
+Geração: 17
+Benefício: 20255. Peso: 18437/23631
+
+Geração: 18
+Benefício: 20287. Peso: 18218/23631
+
+Geração: 19
+Benefício: 20301. Peso: 18643/23631
+
+Geração: 20
+Benefício: 20413. Peso: 18131/23631
+
+Geração: 21
+Benefício: 20413. Peso: 18131/23631
+
+Geração: 22
+Benefício: 20436. Peso: 18878/23631
+
+Geração: 23
+Benefício: 20625. Peso: 18756/23631
+
+Geração: 24
+Benefício: 20625. Peso: 18756/23631
+
+Geração: 25
+Benefício: 20665. Peso: 18713/23631
+
+Geração: 26
+Benefício: 20933. Peso: 19200/23631
+
+Geração: 27
+Benefício: 20933. Peso: 19200/23631
+
+Geração: 28
+Benefício: 20933. Peso: 19200/23631
+
+Geração: 29
+Benefício: 20933. Peso: 19200/23631
+
+Geração: 30
+Benefício: 20933. Peso: 19200/23631

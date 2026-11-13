@@ -1,89 +1,89 @@
 Geração: 1
-Benefício: 3359. Peso: 2697/3483
+Benefício: 3438. Peso: 2775/3483
 
 Geração: 2
-Benefício: 3401. Peso: 2767/3483
+Benefício: 3477. Peso: 2824/3483
 
 Geração: 3
-Benefício: 3412. Peso: 2590/3483
+Benefício: 3477. Peso: 2824/3483
 
 Geração: 4
-Benefício: 3429. Peso: 2804/3483
+Benefício: 3477. Peso: 2824/3483
 
 Geração: 5
-Benefício: 3488. Peso: 2858/3483
+Benefício: 3482. Peso: 2763/3483
 
 Geração: 6
-Benefício: 3596. Peso: 2880/3483
+Benefício: 3565. Peso: 2754/3483
 
 Geração: 7
-Benefício: 3596. Peso: 2880/3483
+Benefício: 3565. Peso: 2754/3483
 
 Geração: 8
-Benefício: 3596. Peso: 2880/3483
+Benefício: 3565. Peso: 2754/3483
 
 Geração: 9
-Benefício: 3600. Peso: 2868/3483
+Benefício: 3565. Peso: 2754/3483
 
 Geração: 10
-Benefício: 3634. Peso: 2979/3483
+Benefício: 3630. Peso: 2972/3483
 
 Geração: 11
-Benefício: 3634. Peso: 2979/3483
+Benefício: 3630. Peso: 2972/3483
 
 Geração: 12
-Benefício: 3679. Peso: 3052/3483
+Benefício: 3668. Peso: 2770/3483
 
 Geração: 13
-Benefício: 3687. Peso: 2858/3483
+Benefício: 3698. Peso: 2946/3483
 
 Geração: 14
-Benefício: 3757. Peso: 3055/3483
+Benefício: 3698. Peso: 2946/3483
 
 Geração: 15
-Benefício: 3757. Peso: 3055/3483
+Benefício: 3724. Peso: 2873/3483
 
 Geração: 16
-Benefício: 3757. Peso: 3055/3483
+Benefício: 3731. Peso: 2817/3483
 
 Geração: 17
-Benefício: 3832. Peso: 3009/3483
+Benefício: 3796. Peso: 2818/3483
 
 Geração: 18
-Benefício: 3832. Peso: 3009/3483
+Benefício: 3803. Peso: 2991/3483
 
 Geração: 19
-Benefício: 3832. Peso: 3009/3483
+Benefício: 3803. Peso: 2991/3483
 
 Geração: 20
-Benefício: 3859. Peso: 2968/3483
+Benefício: 3803. Peso: 2991/3483
 
 Geração: 21
-Benefício: 3859. Peso: 2968/3483
+Benefício: 3840. Peso: 3126/3483
 
 Geração: 22
-Benefício: 3947. Peso: 3090/3483
+Benefício: 3874. Peso: 2973/3483
 
 Geração: 23
-Benefício: 3947. Peso: 3090/3483
+Benefício: 3884. Peso: 3045/3483
 
 Geração: 24
-Benefício: 3947. Peso: 3090/3483
+Benefício: 3900. Peso: 3007/3483
 
 Geração: 25
-Benefício: 3947. Peso: 3090/3483
+Benefício: 3907. Peso: 2759/3483
 
 Geração: 26
-Benefício: 3947. Peso: 3090/3483
+Benefício: 3907. Peso: 2759/3483
 
 Geração: 27
-Benefício: 3954. Peso: 3059/3483
+Benefício: 3907. Peso: 2759/3483
 
 Geração: 28
-Benefício: 4021. Peso: 3112/3483
+Benefício: 3990. Peso: 3112/3483
 
 Geração: 29
-Benefício: 4030. Peso: 3211/3483
+Benefício: 3990. Peso: 3112/3483
 
 Geração: 30
-Benefício: 4030. Peso: 3211/3483
+Benefício: 4008. Peso: 3154/3483

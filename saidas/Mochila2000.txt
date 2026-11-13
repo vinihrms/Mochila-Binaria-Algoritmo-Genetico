@@ -1,0 +1,89 @@
+Geração: 1
+Benefício: 25895. Peso: 23564/27639
+
+Geração: 2
+Benefício: 25895. Peso: 23564/27639
+
+Geração: 3
+Benefício: 25895. Peso: 23564/27639
+
+Geração: 4
+Benefício: 26184. Peso: 23936/27639
+
+Geração: 5
+Benefício: 26453. Peso: 23984/27639
+
+Geração: 6
+Benefício: 26453. Peso: 23984/27639
+
+Geração: 7
+Benefício: 26453. Peso: 23984/27639
+
+Geração: 8
+Benefício: 26453. Peso: 23984/27639
+
+Geração: 9
+Benefício: 26453. Peso: 23984/27639
+
+Geração: 10
+Benefício: 26453. Peso: 23984/27639
+
+Geração: 11
+Benefício: 26655. Peso: 23697/27639
+
+Geração: 12
+Benefício: 26655. Peso: 23697/27639
+
+Geração: 13
+Benefício: 26690. Peso: 23580/27639
+
+Geração: 14
+Benefício: 26700. Peso: 23868/27639
+
+Geração: 15
+Benefício: 26816. Peso: 24253/27639
+
+Geração: 16
+Benefício: 26895. Peso: 24389/27639
+
+Geração: 17
+Benefício: 27077. Peso: 24141/27639
+
+Geração: 18
+Benefício: 27077. Peso: 24141/27639
+
+Geração: 19
+Benefício: 27077. Peso: 24141/27639
+
+Geração: 20
+Benefício: 27126. Peso: 24976/27639
+
+Geração: 21
+Benefício: 27268. Peso: 24077/27639
+
+Geração: 22
+Benefício: 27268. Peso: 24077/27639
+
+Geração: 23
+Benefício: 27402. Peso: 25236/27639
+
+Geração: 24
+Benefício: 27543. Peso: 24897/27639
+
+Geração: 25
+Benefício: 27543. Peso: 24897/27639
+
+Geração: 26
+Benefício: 27543. Peso: 24897/27639
+
+Geração: 27
+Benefício: 27543. Peso: 24897/27639
+
+Geração: 28
+Benefício: 27616. Peso: 24244/27639
+
+Geração: 29
+Benefício: 27650. Peso: 24691/27639
+
+Geração: 30
+Benefício: 27690. Peso: 24560/27639

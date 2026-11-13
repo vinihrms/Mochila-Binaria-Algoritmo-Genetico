@@ -1,0 +1,89 @@
+Geração: 1
+Benefício: 16880. Peso: 15206/17313
+
+Geração: 2
+Benefício: 16982. Peso: 14662/17313
+
+Geração: 3
+Benefício: 17173. Peso: 15109/17313
+
+Geração: 4
+Benefício: 17173. Peso: 15109/17313
+
+Geração: 5
+Benefício: 17173. Peso: 15109/17313
+
+Geração: 6
+Benefício: 17173. Peso: 15109/17313
+
+Geração: 7
+Benefício: 17457. Peso: 15276/17313
+
+Geração: 8
+Benefício: 17468. Peso: 15523/17313
+
+Geração: 9
+Benefício: 17538. Peso: 14984/17313
+
+Geração: 10
+Benefício: 17538. Peso: 14984/17313
+
+Geração: 11
+Benefício: 17538. Peso: 14984/17313
+
+Geração: 12
+Benefício: 17538. Peso: 14984/17313
+
+Geração: 13
+Benefício: 17672. Peso: 14897/17313
+
+Geração: 14
+Benefício: 17672. Peso: 14897/17313
+
+Geração: 15
+Benefício: 17672. Peso: 14897/17313
+
+Geração: 16
+Benefício: 17749. Peso: 15500/17313
+
+Geração: 17
+Benefício: 17794. Peso: 15323/17313
+
+Geração: 18
+Benefício: 17894. Peso: 15911/17313
+
+Geração: 19
+Benefício: 17894. Peso: 15911/17313
+
+Geração: 20
+Benefício: 17915. Peso: 15593/17313
+
+Geração: 21
+Benefício: 18033. Peso: 15184/17313
+
+Geração: 22
+Benefício: 18033. Peso: 15184/17313
+
+Geração: 23
+Benefício: 18033. Peso: 15184/17313
+
+Geração: 24
+Benefício: 18033. Peso: 15184/17313
+
+Geração: 25
+Benefício: 18121. Peso: 15749/17313
+
+Geração: 26
+Benefício: 18184. Peso: 15605/17313
+
+Geração: 27
+Benefício: 18264. Peso: 15834/17313
+
+Geração: 28
+Benefício: 18264. Peso: 15834/17313
+
+Geração: 29
+Benefício: 18348. Peso: 15660/17313
+
+Geração: 30
+Benefício: 18405. Peso: 16027/17313
